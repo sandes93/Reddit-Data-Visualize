@@ -1,3 +1,3 @@
 # Reddit-Data-Visualize
 
-A Data visuzlizer written in python and javascript. 
+A Data visualizer written in python and javascript. 
