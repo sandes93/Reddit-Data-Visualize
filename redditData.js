@@ -1,11 +1,5 @@
 
-var subs ={"blogger": 2,
-"robotics": 0,
-"Bitcoin": 2,
-"AirBnB": 4,
-"Music": 6,
-"audiobooks": 4,
-"askphilosophy": 35,
+var subs ={"AmazonFlex": 2,"northjersey": 3,"Nexus5": 4,"Lyft": 10,"bodyweightfitness": 51,
 }
 
 
