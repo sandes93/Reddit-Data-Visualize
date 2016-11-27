@@ -1,7 +1,7 @@
 import praw
 
 
-reddit = praw.Reddit("A reddit bot by Sandesh")
+reddit = praw.Reddit("A reddit karma visualizer by Sandesh")
 
 user_name = raw_input("Please enter a reddit username? ")
 
@@ -17,7 +17,7 @@ for thing in content:
     subreddit = thing.subreddit.display_name
     karma[subreddit] = (karma.get(subreddit, 0) + thing.score)
     count+=1
-    if count==8:
+    if count==4:
     	break
 
 ascendingKarma = sorted(karma, key=lambda x : karma[x])

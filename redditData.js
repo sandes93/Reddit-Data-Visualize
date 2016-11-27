@@ -1,5 +1,7 @@
 
-var subs ={"AmazonFlex": 2,"northjersey": 3,"Nexus5": 4,"Lyft": 10,"bodyweightfitness": 51,
+var subs ={
+"Transhuman": 0,"RationalPsychonaut": 19,"DMT": 27,"philosophy": 238,"politics": 0,"philosophy": 6806,
+
 }
 
 
