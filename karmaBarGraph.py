@@ -20,13 +20,13 @@ for thing in content:
 
 objects = list(karma.keys())
 y_pos = np.arange(len(objects))
-print y_pos
 performance =  list(karma.values())
  
 plt.barh(y_pos, performance, align='center', alpha=0.5)
 plt.yticks(y_pos, objects)
 plt.xlabel('Karma')
-plt.title('Subreddit Bar Graph')
+title = "Subreddit Bar Graph for reddit user: " + user_name
+plt.title(title)
  
 plt.show()
 
